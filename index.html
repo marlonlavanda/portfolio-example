@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/33136453a6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <h1>Marlon Lavanda</h1>
+          <p>UI Developer</p>
+        </div>
+        <form action="">
+          <input
+            type="text"
+            class="search-bar"
+            id="search-bar"
+            placeholder="Buscar"
+          />
+        </form>
+        <div class="categories" id="categories">
+          <a href="#" class="active">All</a>
+          <a href="#">Nature</a>
+          <a href="#">Cities</a>
+          <a href="#">People</a>
+          <a href="#">Animals</a>
+        </div>
+      </header>
+
+      <section class="grid" id="grid">
+        <div
+          class="item"
+          data-category="cities"
+          data-label="cities cars streets"
+          data-description="1.- Ciudad de New York"
+        >
+          <div class="item-contenido">
+            <img src="/img/ciudad1.png" alt="" />
+          </div>
+        </div>
+
+        <div
+          class="item"
+          data-category="people"
+          data-label="people girl person"
+          data-description="1.- Black hair girl"
+        >
+          <div class="item-contenido">
+            <img src="/img/persona1.png" alt="" />
+          </div>
+        </div>
+
+        <div
+          class="item"
+          data-category="nature"
+          data-label="nature landscaoe feline"
+          data-description="1.- Cliff"
+        >
+          <div class="item-contenido">
+            <img src="/img/paisaje1.png" alt="" />
+          </div>
+        </div>
+
+        <div
+          class="item"
+          data-category="animals"
+          data-label="animals lion sea"
+          data-description="1.- Lion face"
+        >
+          <div class="item-contenido">
+            <img src="/img/animal1.png" alt="lion" />
+          </div>
+        </div>
+
+        <div
+          class="item"
+          data-category="animals"
+          data-label="animals panda mammal"
+          data-description="1.- Panda bear"
+        >
+          <div class="item-contenido">
+            <img src="/img/animal2.png" alt="panda" />
+          </div>
+        </div>
+
+        <div
+          class="item"
+          data-category="people"
+          data-label="people girl person"
+          data-description="1.- Redhead girl"
+        >
+          <div class="item-contenido">
+            <img src="/img/persona2.png" alt="" />
+          </div>
+        </div>
+
+        <div
+          class="item"
+          data-category="nature"
+          data-label="nature landscaoe feline"
+          data-description="1.- Waves hitting rocks"
+        >
+          <div class="item-contenido">
+            <img src="/img/paisaje2.png" alt="" />
+          </div>
+        </div>
+
+        <div
+          class="item"
+          data-category="cities"
+          data-label="cities cars streets"
+          data-description="1.- Ciudad"
+        >
+          <div class="item-contenido">
+            <img src="/img/ciudad2.png" alt="" />
+          </div>
+        </div>
+
+        <div
+          class="item"
+          data-category="nature"
+          data-label="nature sheets green"
+          data-description="1.- Green sheets"
+        >
+          <div class="item-contenido">
+            <img src="/img/naturaleza1.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="overlay active" id="overlay">
+        <div class="container-img">
+          <button id="btn-close-popup"><i class="fas fa-times"></i></button>
+          <img src="/" alt="" />
+        </div>
+        <p class="description"></p>
+      </section>
+    </div>
+
+    <footer class="container">
+      <div class="social-media">
+        <div class="container-icon">
+          <a href="#" target="_blanck" class="twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+        <div class="container-icon">
+          <a href="#" target="_blanck" class="facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>
+        <div class="container-icon">
+          <a href="#" target="_blanck" class="instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+      <div class="created-by">
+        <p>Marlon Lavanda || All rights reserved</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.3/dist/muuri.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
